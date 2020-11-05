@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: order_service
+    password: {cipher}4f83f460cdf653f18dd23e4a4edeea76aa8e7bb5459d25818236bcf4b79748ea
+    url: jdbc:mysql://127.0.0.1:3306/orderservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  # active mq configuration default username and password
+  artemis:
+    user: artemis
+    password: {cipher}afacd62068ce28aded9c870220c47609798e422057c093c054333a218ce261c6
