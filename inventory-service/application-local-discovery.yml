@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud: info

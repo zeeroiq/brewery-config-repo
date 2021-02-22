@@ -1,9 +1,9 @@
 spring:
 #  disable service discovery
-  cloud:
-    config:
-      discovery:
-        enabled: false
+#  cloud:
+#    config:
+#      discovery:
+#        enabled: false
   datasource:
     username: beer_service
     password: password
